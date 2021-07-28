@@ -1,3 +1,4 @@
-var exampleVar = "Oh this is goood"
-
-alert(exampleVar);
+a = 2;
+b = 3;
+c = 21;
+alert(3 * (21 + 2));
