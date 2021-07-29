@@ -1,4 +1,4 @@
-a = 2;
-b = 3;
-c = 21;
-alert(3 * (21 + 2));
+var a = prompt("First name pls");
+if (a === "Haha") {
+  alert("Hello there, " + a);
+}
