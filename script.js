@@ -11,3 +11,8 @@ for (var aa = 0; aa < a.length; aa++) {
 for (var cc = 0; cc < emptyArr.length; cc++) {
   alert(emptyArr[cc])
 }
+
+var a = new Date();
+var b = a.getDay();
+var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+alert(dayNames[b]);
