@@ -21,3 +21,9 @@ var a = new Date();
 var hrs = a.getHours();
 a.setHours(hrs+1);
 alert(a);
+
+function namPlz() {
+    var a = prompt("Enter name");
+    alert(a);
+}
+namPlz();
