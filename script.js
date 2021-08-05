@@ -16,3 +16,8 @@ var a = new Date();
 var b = a.getDay();
 var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 alert(dayNames[b]);
+
+var a = new Date();
+var hrs = a.getHours();
+a.setHours(hrs+1);
+alert(a);
