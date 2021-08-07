@@ -1,3 +1,9 @@
+var i = 0;
+while (i < 3) {
+  alert(i);
+  i++;
+}
+
 function makeMessage(part1, part2) {
     var message = part1 + part2;
     return message;
