@@ -1,3 +1,12 @@
+function makeMessage(part1, part2) {
+    var message = part1 + part2;
+    return message;
+  }
+  
+  var firstName = "Abraham ";
+  var lastName = "Lincoln"; 
+  alert(makeMessage(firstName, lastName));  
+
 var a = ["1", "2"];
 var b = ["5", "6"];
 var emptyArr = [];
